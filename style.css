@@ -1,11 +1,28 @@
-<style> {
-    font-family: Arial: sans-serif;
-    background-color: #000080;
-    text-align: center;
-    padding: 50px; 
-}
-h1 {
-    color: #333;
+body {
+    font-family: Arial, sans-seriff;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
 }
 
-    </style>
+header{
+    background: #4CAF50;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+.subtítulo [
+    font-style: italic;
+    font-size: 1.2rem;
+]
+
+section {
+    padding: 2rem;
+}
+
+footer {
+    background: #f4f4f4;
+    padding: 1rem;
+    text-align: center;
+}
