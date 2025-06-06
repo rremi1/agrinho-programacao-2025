@@ -12,10 +12,10 @@ header{
     text-align: center;
 }
 
-.subtítulo [
+.subtítulo {
     font-style: italic;
     font-size: 1.2rem;
-]
+}
 
 section {
     padding: 2rem;
