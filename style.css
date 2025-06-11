@@ -80,6 +80,7 @@ h2 {
   height: auto;
   border-radius: 6px;
   object-fit: cover;
+   max-width: 300px;
 }
 
 .conteudo-noticia {
@@ -87,15 +88,10 @@ h2 {
 }
 
 .noticia h3 {
-  color: #333;
-  margin-bottom: 0.5rem;
+   margin: 0;
 }
 
 .noticia p {
-  margin: 0;
-}
-
-.noticia a {
   display: inline-block;
   margin-top: 0.5rem;
   color: #4CAF50;
@@ -106,6 +102,13 @@ h2 {
   text-decoration: underline;
 }
 
+@media (max-width: 600px) {
+  .noticia {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+  
 .galeria .imagens {
   display: flex;
   flex-wrap: wrap;
