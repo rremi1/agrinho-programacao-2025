@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Linha do Tempo</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+
+    .timeline {
+      border-left: 3px solid #ccc;
+      padding-left: 20px;
+      margin-left: 10px;
+    }
+
+    details {
+      margin-bottom: 15px;
+      cursor: pointer;
+    }
+
+    summary {
+      font-weight: bold;
+      font-size: 1.1em;
+    }
+
+    details[open] summary::before {
+      content: "📂 ";
+    }
+
+    summary::before {
+      content: "📁 ";
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🕒 Linha do Tempo</h1>
+  <div class="timeline">
+    <details>
+      <summary>2021 - Início do Projeto</summary>
+      <p>Iniciamos com reuniões de escopo e definições técnicas.</p>
+    </details>
+
+    <details>
+      <summary>2022 - Desenvolvimento</summary>
+      <p>Construção das funcionalidades principais e testes unitários.</p>
+    </details>
+
+    <details>
+      <summary>2023 - Lançamento</summary>
+      <p>Publicação oficial no GitHub Pages e feedback inicial.</p>
+    </details>
+  </div>
+
+</body>
+</html>
