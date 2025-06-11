@@ -12,9 +12,16 @@
 }
 
 .titulo {
-    font-size: 3rem;
-    margin: 0;
-    font-weight: bold;
+  font-size: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.titulo .icon {
+  width: 40px;
+  height: 40px;
 }
 
 .subtitulo {
