@@ -7,5 +7,18 @@
 }
 
 .topo-site .container {
-    
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.titulo {
+    font-size: 3rem;
+    margin; 0;
+    font-weight: bold;
+}
+
+.subtitulo {
+    font-size: 1.3rem;
+    font-style: italic;
+    margin-top: 0.5rem;
 }
