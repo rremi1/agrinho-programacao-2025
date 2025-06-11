@@ -113,6 +113,18 @@ h2 {
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
 .timeline {
   position: relative;
   max-width: 800px;
