@@ -75,6 +75,12 @@ h2 {
   align-items: flex-start;
 }
 
+.conteudo-noticia {
+  flex: 1;
+.conteudo-noticia {
+  flex: 1;
+}
+
 .imagem-noticia {
   width: 160px;
   height: auto;
