@@ -1,25 +1,25 @@
- /* Adicionando animações */
-        .timeline {
-            position: relative;
-            max-width: 600px;
-            margin: auto;
-            padding: 10px;
-            border-left: 4px solid #4CAF50;
-        }
+/* Estilos para a linha do tempo */
+.timeline {
+    position: relative;
+    max-width: 600px;
+    margin: auto;
+    padding: 10px;
+    border-left: 4px solid #4CAF50;
+}
 
-        .event {
-            background-color: #000080;
-            border-radius: 5px;
-            padding: 10px;
-            margin: 10px 0;
-            transition: transform 0.3s, background-color 0.3s;
-        }
+.event {
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    transition: transform 0.3s, background-color 0.3s;
+}
 
-        .event:hover {
-            transform: scale(1.05);
-            background-color: #e0f7fa;
-        }
+.event:hover {
+    transform: scale(1.05);
+    background-color: #e0f7fa;
+}
 
-        h2 {
-            color: #4CAF50;
-        }
+h2 {
+    color: #4CAF50;
+}
