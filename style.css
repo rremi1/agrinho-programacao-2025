@@ -65,7 +65,7 @@ h2 {
 
 .noticia {
    display: flex;
-  flex-direction: row; /* imagem à esquerda, texto à direita */
+  flex-direction: row; 
   gap: 1rem;
   background: #ffffff;
   padding: 1rem;
@@ -87,8 +87,8 @@ h2 {
 }
 
 .noticia h3 {
+   margin: 0 0 0.5rem;
   color: #333;
-  margin-bottom: 0.5rem;
 }
 
 .noticia a {
