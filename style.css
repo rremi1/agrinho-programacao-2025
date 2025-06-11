@@ -1,6 +1,6 @@
 body {
-    color: rgb(71, 14, 76);
-    background: rgb(168, 89, 156);
+    color: rgb(136, 58, 102);
+    background: rgb(194, 116, 151);
     margin: 0px;
     font-family: "Georgia", serif;
     margin-bottom: 100px;
@@ -10,15 +10,21 @@ header {
     border-bottom: solid 2px rgb(83, 23, 43);
     padding: 20px;
     font-size: 32px;
-    color: rgb(75, 20, 12);
+    color: rgb(176, 67, 67);
 }
 
 .chamada {
-    background: rgb(250, 207, 221);
+    background: rgb(245, 175, 196);
     padding-bottom: 80px;
     padding-top: 80px;
     display: flex;
     justify-content: center;
+}
+
+.cabecalho-central {
+  text-align: center;
+  max-width: 900px;
+  margin: 0 auto;
 }
 
 .chamada-texto {
@@ -52,9 +58,9 @@ p {
 
 .categoria-videos img:hover {
     opacity: 1.0;
-    border: 3px solid rgb(19, 69, 8);
+    border: 3px solid rgb(39, 39, 86);
 }
 
 .categoria h2 {
-    color:rgb(75, 20, 12);
+    color:rgb(82, 33, 69);
 }
