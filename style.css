@@ -21,10 +21,10 @@ body {
 .icon-fixa-esquerda {
   position: absolute;
   top: 50%;
-  left: 1.5rem;
+  left: 1.8rem;
   transform: translateY(-50%);
-  width: 50px;
-  height: 50px;
+  width: 100px;
+  height: 100px;
 }
 
 .cabecalho-central {
