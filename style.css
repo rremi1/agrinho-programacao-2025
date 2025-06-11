@@ -13,16 +13,17 @@
 }
 
 .titulo {
-  font-size: 3rem;
+  font-size: 2rem;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
+  margin-top: 10px;
 }
 
 .titulo .icon {
   width: 40px;
-  height: 40px;
+  height: 400px;
 }
 
 .subtitulo {
@@ -114,10 +115,18 @@ h2 {
   text-decoration: none;
 }
 body {
-  font-family: Arial, sans-serif;
-  background: #f9f9f9;
+  background-color: #f5fff4;
+  color: #333;
+  font-family: "Arial", sans-serif;
+  line-height: 1.6;
   margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #c7eacb;
   padding: 20px;
+  text-align: center;
 }
 
 .timeline {
