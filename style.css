@@ -193,17 +193,34 @@ footer .creditos {
   }
 }
 
-.titulo-com-icone {
-  display: flex;
-  align-items: center;
+.topo-site {
+  background-color: #4CAF50;
+  color: white;
+  padding: 3rem 1rem;
+  position: relative;
+}
+
+.icon-fixa-esquerda {
+  position: absolute;
+  top: 50%;
+  left: 1.5rem;
+  transform: translateY(-50%);
+  width: 50px;
+  height: 50px;
+}
+
+.cabecalho-central {
+  text-align: center;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.titulo {
   font-size: 2.5rem;
-  font-weight: bold;
-  gap: 0.6rem;
-  justify-content: flex-start; /* alinha à esquerda */
   margin-bottom: 0.5rem;
 }
 
-.icon-esquerda {
-  width: 50px;
-  height: 50px;
+.subtitulo {
+  font-size: 1.2rem;
+  font-style: italic;
 }
