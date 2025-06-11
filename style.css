@@ -21,7 +21,7 @@ body {
 .icon-fixa-esquerda {
   position: absolute;
   top: 50%;
-  left: 1.8rem;
+  left: 2rem;
   transform: translateY(-50%);
   width: 100px;
   height: 100px;
