@@ -21,6 +21,12 @@
   margin-top: 10px;
 }
 
+.icon {
+  height: 40px;
+  vertical-align: middle;
+  margin-left: 10px;
+}
+
 .titulo .icon {
   width: 200px;
   height: 200px;
