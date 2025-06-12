@@ -12,7 +12,6 @@ body {
   line-height: 1.6;
 }
 
-/* Cabeçalho */
 .topo-site {
   background-color: #4CAF50;
   color: white;
@@ -64,7 +63,6 @@ h2 {
   margin-bottom: 1rem;
 }
 
-/* Notícias */
 .noticia {
   display: flex;
   gap: 1rem;
