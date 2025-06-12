@@ -79,6 +79,20 @@ h2 {
   object-fit: cover;
 }
 
+.imagem-noticia-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 160px:
+}
+
+.descricao-imagem {
+  font-size: 0.8rem;
+  color: #666;
+  text-align: center;
+  margin-top: 0.4rem;
+}
+
 .conteudo-noticia {
   flex: 1;
 }
